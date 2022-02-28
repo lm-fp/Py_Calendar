@@ -1,6 +1,7 @@
+# Programa que mostra o calendario de determinado mês
 import calendar
 
-ano = 2022
-mes = 2
+mes = int(input("Digite um mês corresponde a 1/12 de um ano: "))
+ano = int(input("Digite um ano: "))
 
 print(calendar.month(ano, mes))
